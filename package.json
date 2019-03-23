@@ -1,0 +1,43 @@
+{
+  "name": "vue-cli-plugin-typescript",
+  "version": "0.0.1",
+  "description": "typescript plugin for vue-cli",
+  "main": "index.js",
+  "repository": "allex/vue-cli-plugin-ts",
+  "keywords": [
+    "vue",
+    "cli",
+    "typescript"
+  ],
+  "author": "Allex Wang",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@types/webpack-env": "^1.13.6",
+    "@vue/cli-shared-utils": "^3.5.1",
+    "fork-ts-checker-webpack-plugin": "^0.5.2",
+    "globby": "^9.0.0",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.13.0",
+    "webpack": ">=4 < 4.29"
+  },
+  "peerDependencies": {
+    "typescript": ">=2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/jest": "^23.1.4",
+    "@types/mocha": "^5.2.6",
+    "typescript": "^3.2.1",
+    "vue-class-component": "^6.2.0",
+    "vue-property-decorator": "^7.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
