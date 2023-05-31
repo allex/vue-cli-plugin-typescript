@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "typescript plugin for vue-cli",
   "main": "index.js",
-  "repository": "allex/vue-cli-plugin-ts",
+  "repository": "allex/vue-cli-plugin-typescript",
   "keywords": [
     "vue",
     "cli",
